@@ -1,0 +1,201 @@
+{
+    "options": [
+        {
+        "id": 1,
+        "status": "optimal",
+        "metrics": { "totalWindow": "15 min", "sections": 5 },
+        "tags": ["Programación", "Base de Datos", "Inglés I", "Matemática", "Arquitectura"],
+        "professors": ["Manuel Pérez", "Andrea Soto", "Carlos Ruiz"],
+        "schedule": [
+            { "id": "c1_1", "subjectCode": "PGY1121", "subjectName": "Programación de Algoritmos", "professor": "Carlos Ruiz", "room": "LAB-1", "campus": "Sede Maipú", "day": "LUNES", "startTime": "08:30", "endTime": "10:40", "colorClass": "orange" },
+            { "id": "c1_2", "subjectCode": "MBD3101", "subjectName": "Modelamiento BD", "professor": "Manuel Pérez", "room": "LAB-4", "campus": "Sede Maipú", "day": "LUNES", "startTime": "10:50", "endTime": "12:10", "colorClass": "purple" },
+            { "id": "c1_3", "subjectCode": "ING1102", "subjectName": "Inglés Básico I", "professor": "Andrea Soto", "room": "A-203", "campus": "Sede Maipú", "day": "MARTES", "startTime": "08:30", "endTime": "09:50", "colorClass": "teal" },
+            { "id": "c1_4", "subjectCode": "MAT100", "subjectName": "Matemática Aplicada", "professor": "Juan Ruiz", "room": "B-101", "campus": "Sede Maipú", "day": "MIERCOLES", "startTime": "08:30", "endTime": "10:40", "colorClass": "green" },
+            { "id": "c1_5", "subjectCode": "ARQ300", "subjectName": "Arquitectura Hardware", "professor": "Roberto Gomez", "room": "LAB-HW", "campus": "Sede Maipú", "day": "JUEVES", "startTime": "08:30", "endTime": "11:20", "colorClass": "indigo" }
+        ]
+        },
+        {
+        "id": 2,
+        "status": "optimal",
+        "metrics": { "totalWindow": "0 min", "sections": 4 },
+        "tags": ["Desarrollo Web", "UX/UI", "Ética", "Taller Proyectos"],
+        "professors": ["Florinda Meza", "Pedro Pascal", "Ana Silva"],
+        "schedule": [
+            { "id": "c2_1", "subjectCode": "WEB400", "subjectName": "Desarrollo Web", "professor": "Florinda Meza", "room": "LAB-MAC", "campus": "Sede Centro", "day": "LUNES", "startTime": "14:00", "endTime": "16:50", "colorClass": "blue" },
+            { "id": "c2_2", "subjectCode": "DSN100", "subjectName": "UX/UI Design", "professor": "Pedro Pascal", "room": "LAB-DSN", "campus": "Sede Centro", "day": "LUNES", "startTime": "17:00", "endTime": "19:10", "colorClass": "red" },
+            { "id": "c2_3", "subjectCode": "ETI200", "subjectName": "Ética Profesional", "professor": "Ana Silva", "room": "C-202", "campus": "Sede Centro", "day": "MARTES", "startTime": "14:00", "endTime": "15:20", "colorClass": "dark" },
+            { "id": "c2_4", "subjectCode": "PRJ900", "subjectName": "Taller de Proyectos", "professor": "Elon Musk", "room": "CO-WORK", "campus": "Sede Centro", "day": "MIERCOLES", "startTime": "14:00", "endTime": "18:00", "colorClass": "orange" }
+        ]
+        },
+        {
+        "id": 3,
+        "status": "good",
+        "metrics": { "totalWindow": "45 min", "sections": 5 },
+        "tags": ["Big Data", "Minería Datos", "Estadística", "Seguridad"],
+        "professors": ["Alan Turing", "Ada Lovelace", "Neo Anderson"],
+        "schedule": [
+            { "id": "c3_1", "subjectCode": "BIG700", "subjectName": "Big Data", "professor": "Alan Turing", "room": "VIRTUAL-1", "campus": "Online", "day": "MARTES", "startTime": "19:00", "endTime": "21:10", "colorClass": "purple" },
+            { "id": "c3_2", "subjectCode": "MIN600", "subjectName": "Minería de Datos", "professor": "Ada Lovelace", "room": "LAB-DATA", "campus": "Sede Viña", "day": "MIERCOLES", "startTime": "18:30", "endTime": "20:40", "colorClass": "indigo" },
+            { "id": "c3_3", "subjectCode": "EST200", "subjectName": "Estadística Desc.", "professor": "Maria Gonzalez", "room": "A-100", "campus": "Sede Viña", "day": "JUEVES", "startTime": "18:30", "endTime": "19:50", "colorClass": "green" },
+            { "id": "c3_4", "subjectCode": "SEG500", "subjectName": "Seguridad Informática", "professor": "Neo Anderson", "room": "LAB-SEC", "campus": "Sede Viña", "day": "VIERNES", "startTime": "19:00", "endTime": "22:00", "colorClass": "red" }
+        ]
+        },
+        {
+        "id": 4,
+        "status": "regular",
+        "metrics": { "totalWindow": "180 min", "sections": 6 },
+        "tags": ["Portafolio", "Emprendimiento", "Calidad SW", "Inglés II"],
+        "professors": ["Steve Jobs", "Bill Gates", "Shakira Mebarak"],
+        "schedule": [
+            { "id": "c4_1", "subjectCode": "PTF500", "subjectName": "Portafolio de Título", "professor": "Steve Jobs", "room": "AUDITORIO", "campus": "Sede Maipú", "day": "LUNES", "startTime": "08:30", "endTime": "12:30", "colorClass": "dark" },
+            { "id": "c4_2", "subjectCode": "EMP100", "subjectName": "Emprendimiento", "professor": "Bill Gates", "room": "B-202", "campus": "Sede Maipú", "day": "LUNES", "startTime": "15:30", "endTime": "17:40", "colorClass": "orange" },
+            { "id": "c4_3", "subjectCode": "CAL300", "subjectName": "Calidad de Software", "professor": "Linus Torvalds", "room": "LAB-QA", "campus": "Sede Maipú", "day": "MARTES", "startTime": "10:00", "endTime": "12:10", "colorClass": "blue" },
+            { "id": "c4_4", "subjectCode": "ING2202", "subjectName": "Inglés Intermedio", "professor": "Shakira Mebarak", "room": "A-204", "campus": "Sede Maipú", "day": "JUEVES", "startTime": "08:30", "endTime": "09:50", "colorClass": "teal" }
+        ]
+        },
+        {
+        "id": 5,
+        "status": "bad",
+        "metrics": { "totalWindow": "360 min", "sections": 7 },
+        "tags": ["Programación", "Matemática", "Inglés I", "Base de Datos"],
+        "professors": ["Juan Pérez", "Maria Lopez", "Pedro Pascal"],
+        "schedule": [
+            { "id": "c5_1", "subjectCode": "PGY1121", "subjectName": "Programación de Algoritmos", "professor": "Juan Pérez", "room": "LAB-1", "campus": "Sede Maipú", "day": "LUNES", "startTime": "08:30", "endTime": "10:40", "colorClass": "orange" },
+            { "id": "c5_2", "subjectCode": "MAT100", "subjectName": "Matemática Aplicada", "professor": "Maria Lopez", "room": "B-101", "campus": "Sede Maipú", "day": "LUNES", "startTime": "16:40", "endTime": "18:50", "colorClass": "green" },
+            { "id": "c5_3", "subjectCode": "ING1102", "subjectName": "Inglés Básico I", "professor": "Gringo Karl", "room": "A-203", "campus": "Sede Maipú", "day": "MARTES", "startTime": "08:30", "endTime": "09:50", "colorClass": "teal" },
+            { "id": "c5_4", "subjectCode": "MBD3101", "subjectName": "Modelamiento BD", "professor": "Pedro Pascal", "room": "LAB-4", "campus": "Sede Maipú", "day": "MARTES", "startTime": "15:30", "endTime": "16:50", "colorClass": "purple" },
+            { "id": "c5_5", "subjectCode": "ETI200", "subjectName": "Ética Profesional", "professor": "Ana Silva", "room": "C-200", "campus": "Sede Maipú", "day": "VIERNES", "startTime": "08:30", "endTime": "09:50", "colorClass": "dark" }
+        ]
+        },
+        {
+        "id": 6,
+        "status": "good",
+        "metrics": { "totalWindow": "30 min", "sections": 4 },
+        "tags": ["Full Stack", "Cloud Computing", "Scrum"],
+        "professors": ["Jeff Bezos", "Satya Nadella"],
+        "schedule": [
+            { "id": "c6_1", "subjectCode": "WEB400", "subjectName": "Desarrollo Web", "professor": "Jeff Bezos", "room": "LAB-AWS", "campus": "Sede Centro", "day": "MIERCOLES", "startTime": "19:00", "endTime": "21:50", "colorClass": "blue" },
+            { "id": "c6_2", "subjectCode": "MIN600", "subjectName": "Minería de Datos", "professor": "Satya Nadella", "room": "LAB-AZURE", "campus": "Sede Centro", "day": "JUEVES", "startTime": "19:00", "endTime": "21:10", "colorClass": "indigo" },
+            { "id": "c6_3", "subjectCode": "PRJ900", "subjectName": "Taller de Proyectos", "professor": "Elon Musk", "room": "CO-WORK", "campus": "Sede Centro", "day": "VIERNES", "startTime": "18:30", "endTime": "22:30", "colorClass": "orange" }
+        ]
+        },
+        {
+        "id": 7,
+        "status": "optimal",
+        "metrics": { "totalWindow": "10 min", "sections": 5 },
+        "tags": ["Intensivo Lunes-Martes"],
+        "professors": ["Varios"],
+        "schedule": [
+            { "id": "c7_1", "subjectCode": "PGY1121", "subjectName": "Programación", "professor": "Carlos Ruiz", "room": "L1", "campus": "Maipú", "day": "LUNES", "startTime": "08:30", "endTime": "10:40", "colorClass": "orange" },
+            { "id": "c7_2", "subjectCode": "MBD3101", "subjectName": "Base de Datos", "professor": "Manuel Pérez", "room": "L4", "campus": "Maipú", "day": "LUNES", "startTime": "10:50", "endTime": "12:10", "colorClass": "purple" },
+            { "id": "c7_3", "subjectCode": "ING1102", "subjectName": "Inglés", "professor": "Andrea Soto", "room": "A2", "campus": "Maipú", "day": "LUNES", "startTime": "12:20", "endTime": "13:40", "colorClass": "teal" },
+            { "id": "c7_4", "subjectCode": "MAT100", "subjectName": "Matemática", "professor": "Juan Ruiz", "room": "B1", "campus": "Maipú", "day": "LUNES", "startTime": "14:30", "endTime": "16:40", "colorClass": "green" },
+            { "id": "c7_5", "subjectCode": "ARQ300", "subjectName": "Arquitectura", "professor": "Roberto Gomez", "room": "HW", "campus": "Maipú", "day": "MARTES", "startTime": "08:30", "endTime": "11:20", "colorClass": "indigo" }
+        ]
+        },
+        {
+        "id": 8,
+        "status": "regular",
+        "metrics": { "totalWindow": "100 min", "sections": 6 },
+        "tags": ["Sabatino/Vespertino"],
+        "professors": ["Mix Docentes"],
+        "schedule": [
+            { "id": "c8_1", "subjectCode": "SEG500", "subjectName": "Seguridad Informática", "professor": "Mr. Robot", "room": "LAB-SEC", "campus": "Online", "day": "VIERNES", "startTime": "19:00", "endTime": "22:00", "colorClass": "red" },
+            { "id": "c8_2", "subjectCode": "PTF500", "subjectName": "Portafolio", "professor": "Steve Jobs", "room": "LAB-MAC", "campus": "Maipú", "day": "SABADO", "startTime": "09:00", "endTime": "13:00", "colorClass": "dark" },
+            { "id": "c8_3", "subjectCode": "EMP100", "subjectName": "Emprendimiento", "professor": "Mark Z.", "room": "A-101", "campus": "Maipú", "day": "SABADO", "startTime": "14:00", "endTime": "16:10", "colorClass": "orange" }
+        ]
+        },
+        {
+        "id": 9,
+        "status": "bad",
+        "metrics": { "totalWindow": "400 min", "sections": 5 },
+        "tags": ["Ventanas Extremas", "Disperso"],
+        "professors": ["Docentes Suplentes"],
+        "schedule": [
+            { "id": "c9_1", "subjectCode": "MAT100", "subjectName": "Matemática", "professor": "Desconocido", "room": "A1", "campus": "Maipú", "day": "LUNES", "startTime": "08:30", "endTime": "09:50", "colorClass": "green" },
+            { "id": "c9_2", "subjectCode": "PGY1121", "subjectName": "Programación", "professor": "J. Perez", "room": "L2", "campus": "Maipú", "day": "LUNES", "startTime": "16:00", "endTime": "18:10", "colorClass": "orange" },
+            { "id": "c9_3", "subjectCode": "ING1102", "subjectName": "Inglés", "professor": "A. Soto", "room": "A3", "campus": "Maipú", "day": "MIERCOLES", "startTime": "08:30", "endTime": "09:50", "colorClass": "teal" },
+            { "id": "c9_4", "subjectCode": "ARQ300", "subjectName": "Arquitectura", "professor": "R. Gomez", "room": "L5", "campus": "Maipú", "day": "MIERCOLES", "startTime": "18:00", "endTime": "20:50", "colorClass": "indigo" },
+            { "id": "c9_5", "subjectCode": "ETI200", "subjectName": "Ética", "professor": "A. Silva", "room": "B2", "campus": "Maipú", "day": "VIERNES", "startTime": "12:00", "endTime": "13:20", "colorClass": "dark" }
+        ]
+        },
+        {
+        "id": 10,
+        "status": "optimal",
+        "metrics": { "totalWindow": "15 min", "sections": 5 },
+        "tags": ["Solo Mañanas", "Compacto"],
+        "professors": ["Equipo Titular"],
+        "schedule": [
+            { "id": "c10_1", "subjectCode": "WEB400", "subjectName": "Desarrollo Web", "professor": "F. Meza", "room": "L-MAC", "campus": "Centro", "day": "LUNES", "startTime": "08:30", "endTime": "11:20", "colorClass": "blue" },
+            { "id": "c10_2", "subjectCode": "DSN100", "subjectName": "UX/UI", "professor": "P. Pascal", "room": "L-DSN", "campus": "Centro", "day": "MARTES", "startTime": "08:30", "endTime": "10:40", "colorClass": "red" },
+            { "id": "c10_3", "subjectCode": "ING2202", "subjectName": "Inglés II", "professor": "S. Mebarak", "room": "A2", "campus": "Centro", "day": "MIERCOLES", "startTime": "08:30", "endTime": "09:50", "colorClass": "teal" },
+            { "id": "c10_4", "subjectCode": "PRJ900", "subjectName": "Proyectos", "professor": "E. Musk", "room": "COW", "campus": "Centro", "day": "JUEVES", "startTime": "08:30", "endTime": "12:30", "colorClass": "orange" },
+            { "id": "c10_5", "subjectCode": "ETI200", "subjectName": "Ética", "professor": "A. Silva", "room": "C1", "campus": "Centro", "day": "VIERNES", "startTime": "08:30", "endTime": "09:50", "colorClass": "dark" }
+        ]
+        },
+        {
+        "id": 11,
+        "status": "regular",
+        "metrics": { "totalWindow": "90 min", "sections": 4 },
+        "tags": ["Vespertino Tarde", "Online Híbrido"],
+        "professors": ["Satoshi N.", "Ada L."],
+        "schedule": [
+            { "id": "c11_1", "subjectCode": "BIG700", "subjectName": "Big Data", "professor": "Satoshi N.", "room": "ONL", "campus": "Online", "day": "LUNES", "startTime": "19:00", "endTime": "21:10", "colorClass": "purple" },
+            { "id": "c11_2", "subjectCode": "MIN600", "subjectName": "Minería", "professor": "Ada L.", "room": "L-DAT", "campus": "Viña", "day": "MARTES", "startTime": "18:30", "endTime": "20:40", "colorClass": "indigo" },
+            { "id": "c11_3", "subjectCode": "SEG500", "subjectName": "Seguridad", "professor": "Mr. Robot", "room": "L-SEC", "campus": "Viña", "day": "MIERCOLES", "startTime": "18:30", "endTime": "21:30", "colorClass": "red" },
+            { "id": "c11_4", "subjectCode": "EST200", "subjectName": "Estadística", "professor": "M. Gonzalez", "room": "A5", "campus": "Viña", "day": "JUEVES", "startTime": "19:00", "endTime": "20:20", "colorClass": "green" }
+        ]
+        },
+        {
+        "id": 12,
+        "status": "good",
+        "metrics": { "totalWindow": "20 min", "sections": 6 },
+        "tags": ["Intensivo Jueves-Viernes"],
+        "professors": ["Grace Hopper", "Alan T."],
+        "schedule": [
+            { "id": "c12_1", "subjectCode": "PGY1121", "subjectName": "Progra", "professor": "G. Hopper", "room": "L1", "campus": "Maipú", "day": "JUEVES", "startTime": "08:30", "endTime": "10:40", "colorClass": "orange" },
+            { "id": "c12_2", "subjectCode": "MBD3101", "subjectName": "B. Datos", "professor": "Alan T.", "room": "L4", "campus": "Maipú", "day": "JUEVES", "startTime": "11:00", "endTime": "12:20", "colorClass": "purple" },
+            { "id": "c12_3", "subjectCode": "MAT100", "subjectName": "Matemática", "professor": "J. Ruiz", "room": "B2", "campus": "Maipú", "day": "JUEVES", "startTime": "13:30", "endTime": "15:40", "colorClass": "green" },
+            { "id": "c12_4", "subjectCode": "ARQ300", "subjectName": "Arquitectura", "professor": "R. Gomez", "room": "HW", "campus": "Maipú", "day": "VIERNES", "startTime": "08:30", "endTime": "11:20", "colorClass": "indigo" },
+            { "id": "c12_5", "subjectCode": "ING1102", "subjectName": "Inglés", "professor": "A. Soto", "room": "A2", "campus": "Maipú", "day": "VIERNES", "startTime": "11:30", "endTime": "12:50", "colorClass": "teal" }
+        ]
+        },
+        {
+        "id": 13,
+        "status": "optimal",
+        "metrics": { "totalWindow": "5 min", "sections": 3 },
+        "tags": ["Carga Ligera", "Electivos"],
+        "professors": ["Tim Cook"],
+        "schedule": [
+            { "id": "c13_1", "subjectCode": "EMP100", "subjectName": "Emprendimiento", "professor": "Tim Cook", "room": "AUD", "campus": "Centro", "day": "LUNES", "startTime": "10:00", "endTime": "12:10", "colorClass": "orange" },
+            { "id": "c13_2", "subjectCode": "CAL300", "subjectName": "Calidad SW", "professor": "L. Torvalds", "room": "L-QA", "campus": "Centro", "day": "LUNES", "startTime": "12:15", "endTime": "14:25", "colorClass": "blue" },
+            { "id": "c13_3", "subjectCode": "ETI200", "subjectName": "Ética", "professor": "A. Silva", "room": "C1", "campus": "Centro", "day": "MARTES", "startTime": "10:00", "endTime": "11:20", "colorClass": "dark" }
+        ]
+        },
+        {
+        "id": 14,
+        "status": "bad",
+        "metrics": { "totalWindow": "240 min", "sections": 4 },
+        "tags": ["Solo Tardes", "Ventanas"],
+        "professors": ["Suplente 2"],
+        "schedule": [
+            { "id": "c14_1", "subjectCode": "PTF500", "subjectName": "Portafolio", "professor": "S. Jobs", "room": "LAB-M", "campus": "Maipú", "day": "LUNES", "startTime": "14:00", "endTime": "18:00", "colorClass": "dark" },
+            { "id": "c14_2", "subjectCode": "ING2202", "subjectName": "Inglés II", "professor": "S. Mebarak", "room": "A3", "campus": "Maipú", "day": "LUNES", "startTime": "20:00", "endTime": "21:20", "colorClass": "teal" },
+            { "id": "c14_3", "subjectCode": "WEB400", "subjectName": "Desarrollo Web", "professor": "F. Meza", "room": "L-WEB", "campus": "Maipú", "day": "MIERCOLES", "startTime": "14:00", "endTime": "16:50", "colorClass": "blue" }
+        ]
+        },
+        {
+        "id": 15,
+        "status": "good",
+        "metrics": { "totalWindow": "60 min", "sections": 5 },
+        "tags": ["Semipresencial"],
+        "professors": ["Online Staff"],
+        "schedule": [
+            { "id": "c15_1", "subjectCode": "BIG700", "subjectName": "Big Data", "professor": "A. Turing", "room": "ONL", "campus": "Online", "day": "LUNES", "startTime": "08:30", "endTime": "10:40", "colorClass": "purple" },
+            { "id": "c15_2", "subjectCode": "MIN600", "subjectName": "Minería", "professor": "A. Lovelace", "room": "ONL", "campus": "Online", "day": "LUNES", "startTime": "11:00", "endTime": "13:10", "colorClass": "indigo" },
+            { "id": "c15_3", "subjectCode": "SEG500", "subjectName": "Seguridad", "professor": "N. Anderson", "room": "L-SEC", "campus": "Viña", "day": "VIERNES", "startTime": "14:00", "endTime": "17:00", "colorClass": "red" },
+            { "id": "c15_4", "subjectCode": "EST200", "subjectName": "Estadística", "professor": "M. Gonzalez", "room": "A1", "campus": "Viña", "day": "VIERNES", "startTime": "17:15", "endTime": "18:35", "colorClass": "green" }
+        ]
+        }
+    ]
+}
